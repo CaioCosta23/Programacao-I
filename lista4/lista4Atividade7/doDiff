@@ -1,0 +1,4 @@
+rm -rf outprog
+mkdir outprog
+./prog < input/test_1 > outprog/arquivo1
+diff output/test_1 outprog/arquivo1
